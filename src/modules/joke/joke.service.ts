@@ -39,7 +39,10 @@ export class JokeService {
 	}
 
 	halfJoke(joke: string): string {
-		const [, text, , punctuation] = joke.match(/(.+?)(([.?])|([,])).+/) || []
+		const forcedCleanSub = joke.substr(0, 20).replace(',', '')
+		const cleanedJoke = [forcedCleanSub, joke.slice(20)].join('')
+
+		const [, text, , punctuation] = cleanedJoke.match(/(.+?)(([.?])|([,])).+/) || []
 
 		if (!text || text === joke) {
 			return ''

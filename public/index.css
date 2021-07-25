@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-size: 16px;
+  font-family: Quicksand, Helvetica, sans-ser;
+  background: #141617;
+  color: #f5f8fb;
+}
+.flex {
+  display: flex;
+}
+.flex--jc {
+  justify-content: center;
+}
+.h100p {
+  height: 100%;
+}
+.content--center {
+  align-self: center;
+}
+.content__meta {
+  margin-top: 16px;
+  font-size: 12px;
+  color: rgba(245,248,251,0.5);
+}
+.content__meta a {
+  color: rgba(245,248,251,0.5);
+}
