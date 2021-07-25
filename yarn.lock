@@ -755,6 +755,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nestjs/axios@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "@nestjs/axios@npm:0.0.1"
+  dependencies:
+    axios: 0.21.1
+  peerDependencies:
+    "@nestjs/common": ^7.0.0 || ^8.0.0
+    reflect-metadata: ^0.1.12
+    rxjs: ^6.0.0 || ^7.0.0
+  checksum: f479bcabe19ae2531560649a53480b1f8efc1eb970b82021db3ba94d5f5a98ce5ff712d5fe49dd75f4aab2a9dda8748f6036cc01202c127b0358bdb761a68897
+  languageName: node
+  linkType: hard
+
 "@nestjs/cli@npm:^8.0.0":
   version: 8.0.2
   resolution: "@nestjs/cli@npm:8.0.2"
@@ -3587,6 +3600,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "half-jokes@workspace:."
   dependencies:
+    "@nestjs/axios": ^0.0.1
     "@nestjs/cli": ^8.0.0
     "@nestjs/common": ^8.0.0
     "@nestjs/core": ^8.0.0

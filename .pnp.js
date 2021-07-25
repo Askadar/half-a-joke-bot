@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@nestjs/axios", "virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:0.0.1"],
             ["@nestjs/cli", "npm:8.0.2"],
             ["@nestjs/common", "virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:8.0.4"],
             ["@nestjs/core", "virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:8.0.4"],
@@ -1211,6 +1212,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:16.4.2"],
             ["@types/yargs", "npm:16.0.4"],
             ["chalk", "npm:4.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@nestjs/axios", [
+        ["npm:0.0.1", {
+          "packageLocation": "./.yarn/cache/@nestjs-axios-npm-0.0.1-266a564fde-f479bcabe1.zip/node_modules/@nestjs/axios/",
+          "packageDependencies": [
+            ["@nestjs/axios", "npm:0.0.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:0.0.1", {
+          "packageLocation": "./.yarn/$$virtual/@nestjs-axios-virtual-2fd1e7e9a4/0/cache/@nestjs-axios-npm-0.0.1-266a564fde-f479bcabe1.zip/node_modules/@nestjs/axios/",
+          "packageDependencies": [
+            ["@nestjs/axios", "virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:0.0.1"],
+            ["@nestjs/common", "virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:8.0.4"],
+            ["@types/nestjs__common", null],
+            ["@types/reflect-metadata", null],
+            ["@types/rxjs", null],
+            ["axios", "npm:0.21.1"],
+            ["reflect-metadata", "npm:0.1.13"],
+            ["rxjs", "npm:7.2.0"]
+          ],
+          "packagePeers": [
+            "@nestjs/common",
+            "@types/nestjs__common",
+            "@types/reflect-metadata",
+            "@types/rxjs",
+            "reflect-metadata",
+            "rxjs"
           ],
           "linkType": "HARD",
         }]
@@ -4697,6 +4729,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["half-jokes", "workspace:."],
+            ["@nestjs/axios", "virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:0.0.1"],
             ["@nestjs/cli", "npm:8.0.2"],
             ["@nestjs/common", "virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:8.0.4"],
             ["@nestjs/core", "virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:8.0.4"],
