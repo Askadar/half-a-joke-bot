@@ -3489,6 +3489,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eventemitter3@npm:^4.0.7":
+  version: 4.0.7
+  resolution: "eventemitter3@npm:4.0.7"
+  checksum: 1fc12c7bc3b4194c50975827e72d56ff57c32b75a4c7dbf4d5eebf3c8371f6f1aad6799150b609de1b867c0d8a9885c08b6ca5e7e0dc437d6152f3063b2607dd
+  languageName: node
+  linkType: hard
+
 "events@npm:^3.2.0":
   version: 3.3.0
   resolution: "events@npm:3.3.0"
@@ -4115,6 +4122,7 @@ __metadata:
     reflect-metadata: ^0.1.13
     rimraf: ^3.0.2
     rxjs: ^7.2.0
+    slash-create: ^3.3.0
     source-map-support: "npm:0.5.19"
     sqlite3: ^5.0.2
     squirrelly: ^8.0.8
@@ -5482,6 +5490,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.isequal@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.isequal@npm:4.5.0"
+  checksum: 5b47e094641c18a915497343894c66f7da6aebb9aaa2a3fcc5643455aaf29d19df60ebbed664c8374fb959c8b4ce96810ee6becd8a71ac58c6c2ca8d29762947
+  languageName: node
+  linkType: hard
+
 "lodash.merge@npm:^4.6.2":
   version: 4.6.2
   resolution: "lodash.merge@npm:4.6.2"
@@ -5507,6 +5522,13 @@ __metadata:
   version: 4.4.2
   resolution: "lodash.truncate@npm:4.4.2"
   checksum: b1b0d7d993bb73d0032fe909d4523a836b6aa91566fa88ff78c3eac008bd3d3b2ba0f2e8381d7f906b1d6913a64982f34bea95dd556355c0d418bfddf3ab7b06
+  languageName: node
+  linkType: hard
+
+"lodash.uniq@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.uniq@npm:4.5.0"
+  checksum: 47cb25b59bf40ef3bdf441b7b6cb41d0b95ae0ca576be2c206724dd66041fa8aadab55c1210792671aa0b1c9878d5c0be48927bf4d22f3ed50e5f79d3b2e90b7
   languageName: node
   linkType: hard
 
@@ -6826,6 +6848,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"require-all@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "require-all@npm:3.0.0"
+  checksum: 25c94dd7ddb9867c0a7b264581146567cf236aff3482d0689687eb4a4da67c22257dccbc0ccba8adb17cd5b4b08699aea9ab292cf884326bb716f5fa095a72c8
+  languageName: node
+  linkType: hard
+
 "require-directory@npm:^2.1.1":
   version: 2.1.1
   resolution: "require-directory@npm:2.1.1"
@@ -7193,6 +7222,28 @@ __metadata:
   version: 1.0.5
   resolution: "sisteransi@npm:1.0.5"
   checksum: 6554debe10fa4c6a7e8d58531313fdb61c39bb435ba420f8d7a01d8aaffecc654cca846b586e33f3c904350e24f229d5bbd8069abdb583c93252849a0f73e933
+  languageName: node
+  linkType: hard
+
+"slash-create@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "slash-create@npm:3.3.0"
+  dependencies:
+    "@discordjs/collection": ^0.1.6
+    eventemitter3: ^4.0.7
+    lodash.isequal: ^4.5.0
+    lodash.uniq: ^4.5.0
+    require-all: ^3.0.0
+    tweetnacl: ^1.0.3
+  peerDependencies:
+    express: ^4.17.1
+    fastify: ^3.9.1
+  peerDependenciesMeta:
+    express:
+      optional: true
+    fastify:
+      optional: true
+  checksum: f45534ea1d661cb8678e51bda8ee7d34f0ba6bd2c93fb77df5dcd2553fbf4943b62901c5a31ba1e9e879e3c4dcf3074917bd5c396967ca171119e6f7f642da9b
   languageName: node
   linkType: hard
 

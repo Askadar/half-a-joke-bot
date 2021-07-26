@@ -12,8 +12,14 @@ body {
 .flex--jc {
   justify-content: center;
 }
+.flex--dc {
+  flex-direction: column;
+}
 .h100p {
   height: 100%;
+}
+.content {
+  flex: 1;
 }
 .content--center {
   align-self: center;
@@ -25,4 +31,19 @@ body {
 }
 .content__meta a {
   color: rgba(245,248,251,0.5);
+}
+.footer {
+  align-self: end;
+  padding: 0 24px;
+}
+.footer__link {
+  display: flex;
+  align-items: center;
+  color: #5865f2;
+}
+.footer__link > span {
+  margin-right: 0.5em;
+}
+.footer__link > img {
+  height: 32px;
 }

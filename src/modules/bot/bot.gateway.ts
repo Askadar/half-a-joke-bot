@@ -5,7 +5,7 @@ import { JokeService } from '../joke'
 
 @Injectable()
 export class BotGateway {
-	private readonly logger = new Logger('BotGateway')
+	// private readonly logger = new Logger('BotGateway')
 
 	constructor(
 		private readonly discordProvider: DiscordClientProvider,
@@ -14,7 +14,7 @@ export class BotGateway {
 
 	@Once({ event: 'ready' })
 	async onReady(): Promise<void> {
-		this.logger.log(`Logged in as ${this.discordProvider.getClient().user.tag}!`)
+		// this.logger.log(`Logged in as ${this.discordProvider.getClient().user.tag}!`)
 	}
 
 	@OnCommand({ name: 'half-joke' })

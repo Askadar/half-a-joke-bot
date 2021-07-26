@@ -11,10 +11,12 @@ export class AppController {
 		private readonly botService: BotService,
 	) {}
 
-	@Render('index')
 	@Get()
+	@Render('index')
 	async getJokes() {
-		return this.jokesService.getRandomJoke()
+		const joke = await this.jokesService.getRandomJoke()
+		const inviteUrl = this.botService.generateInviteLink()
+		return { joke, inviteUrl }
 	}
 
 	@Get('load-jokes')

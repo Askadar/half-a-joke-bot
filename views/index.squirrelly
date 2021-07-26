@@ -11,18 +11,25 @@
 </head>
 <body>
 
-	<div class="flex flex--jc h100p">
+	<div class="flex flex--jc flex--dc h100p">
 
 		<header></header>
 
-		<div class="content content--center">
+		<div class="content content--center flex flex--jc flex--dc">
 			<h2>
-				{{ it.halfJoke }}
+				{{ it.joke.halfJoke }}
 			</h2>
-			<p class="content__meta">{{ it.originJoke }} - <a href="https://icanhazdadjoke.com/j/{{ it.id }}" target="_source" rel="noreferrer" and rel="noopener">{{ it.id }}</a></p>
+			<p class="content__meta">{{ it.joke.originJoke }} - <a href="https://icanhazdadjoke.com/j/{{ it.joke.id }}" target="_source" rel="noreferrer" and rel="noopener">{{ it.joke.id }}</a></p>
 		</div>
 
-		<footer></footer>
+		<footer class="footer">
+			<p>
+				<a href="{{it.inviteUrl}}" class="footer__link">
+					<span>Get it on your server:</span>
+					<img src="/discord-logo-colourful.svg" />
+				</a>
+			</p>
+		</footer>
 
 	</div>
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">

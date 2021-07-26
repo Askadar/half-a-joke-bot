@@ -1,19 +1,21 @@
 import { Injectable } from '@nestjs/common'
 import { ConfigService } from '@nestjs/config'
+import { URL } from 'url'
 
 @Injectable()
 export class BotService {
 	constructor(private readonly config: ConfigService) {}
 
 	public generateInviteLink() {
-		const permissions = 68608
-		const scope = false ? `applications.commands%20bot` : null
+		const permissions = false ? 68608 : null
+		const scope = true ? ['applications.commands'].join('%20') : null
 
-		const clientId = this.config.get('DISCORD_BOT_CLIENT_ID')
-		const url = `https://discord.com/api/oauth2/authorize?client_id=${clientId}&scope=bot&permissions=${permissions}${
-			scope ? `&scope=${scope}` : ''
-		}`
+		const url = new URL('https://discord.com/api/oauth2/authorize')
+		const client_id = this.config.get('DISCORD_APPLICATION_ID')
+		const params = { permissions, scope, client_id }
+		const activeParamsTuple = Object.entries(params).filter(([, value]) => !!value)
+		activeParamsTuple.forEach(([key, value]) => url.searchParams.append(key, value))
 
-		return url
+		return url.toString()
 	}
 }

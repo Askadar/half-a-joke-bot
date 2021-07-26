@@ -65,6 +65,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["reflect-metadata", "npm:0.1.13"],
             ["rimraf", "npm:3.0.2"],
             ["rxjs", "npm:7.2.0"],
+            ["slash-create", "virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:3.3.0"],
             ["source-map-support", "npm:0.5.19"],
             ["sqlite3", "virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:5.0.2"],
             ["squirrelly", "npm:8.0.8"],
@@ -4688,6 +4689,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["eventemitter3", [
+        ["npm:4.0.7", {
+          "packageLocation": "./.yarn/cache/eventemitter3-npm-4.0.7-7afcdd74ae-1fc12c7bc3.zip/node_modules/eventemitter3/",
+          "packageDependencies": [
+            ["eventemitter3", "npm:4.0.7"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["events", [
         ["npm:3.3.0", {
           "packageLocation": "./.yarn/cache/events-npm-3.3.0-c280bc7e48-56fa125670.zip/node_modules/events/",
@@ -5408,6 +5418,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["reflect-metadata", "npm:0.1.13"],
             ["rimraf", "npm:3.0.2"],
             ["rxjs", "npm:7.2.0"],
+            ["slash-create", "virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:3.3.0"],
             ["source-map-support", "npm:0.5.19"],
             ["sqlite3", "virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:5.0.2"],
             ["squirrelly", "npm:8.0.8"],
@@ -6962,6 +6973,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["lodash.isequal", [
+        ["npm:4.5.0", {
+          "packageLocation": "./.yarn/cache/lodash.isequal-npm-4.5.0-f8b0f64d63-5b47e09464.zip/node_modules/lodash.isequal/",
+          "packageDependencies": [
+            ["lodash.isequal", "npm:4.5.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["lodash.merge", [
         ["npm:4.6.2", {
           "packageLocation": "./.yarn/cache/lodash.merge-npm-4.6.2-77cb4416bf-4e2bb42a87.zip/node_modules/lodash.merge/",
@@ -6994,6 +7014,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash.truncate-npm-4.4.2-bc50fe1663-b1b0d7d993.zip/node_modules/lodash.truncate/",
           "packageDependencies": [
             ["lodash.truncate", "npm:4.4.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["lodash.uniq", [
+        ["npm:4.5.0", {
+          "packageLocation": "./.yarn/cache/lodash.uniq-npm-4.5.0-7c270dca85-47cb25b59b.zip/node_modules/lodash.uniq/",
+          "packageDependencies": [
+            ["lodash.uniq", "npm:4.5.0"]
           ],
           "linkType": "HARD",
         }]
@@ -8467,6 +8496,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["require-all", [
+        ["npm:3.0.0", {
+          "packageLocation": "./.yarn/cache/require-all-npm-3.0.0-a4509266cc-25c94dd7dd.zip/node_modules/require-all/",
+          "packageDependencies": [
+            ["require-all", "npm:3.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["require-directory", [
         ["npm:2.1.1", {
           "packageLocation": "./.yarn/cache/require-directory-npm-2.1.1-8608aee50b-f495d02d89.zip/node_modules/require-directory/",
@@ -8861,6 +8899,38 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/slash-npm-3.0.0-b87de2279a-fc3e8597d8.zip/node_modules/slash/",
           "packageDependencies": [
             ["slash", "npm:3.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["slash-create", [
+        ["npm:3.3.0", {
+          "packageLocation": "./.yarn/cache/slash-create-npm-3.3.0-d082d3c367-f45534ea1d.zip/node_modules/slash-create/",
+          "packageDependencies": [
+            ["slash-create", "npm:3.3.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:3.3.0", {
+          "packageLocation": "./.yarn/$$virtual/slash-create-virtual-edf688c528/0/cache/slash-create-npm-3.3.0-d082d3c367-f45534ea1d.zip/node_modules/slash-create/",
+          "packageDependencies": [
+            ["slash-create", "virtual:8310dbb69ce67efd9deb1958493dcbef269acc59cb6638a86a7e3ac03b71dcc4b12b6e31de6dda8e658bfe5717935abcbadbd2a848d68f8e47ea38ec776d8937#npm:3.3.0"],
+            ["@discordjs/collection", "npm:0.1.6"],
+            ["@types/express", "npm:4.17.13"],
+            ["@types/fastify", null],
+            ["eventemitter3", "npm:4.0.7"],
+            ["express", null],
+            ["fastify", null],
+            ["lodash.isequal", "npm:4.5.0"],
+            ["lodash.uniq", "npm:4.5.0"],
+            ["require-all", "npm:3.0.0"],
+            ["tweetnacl", "npm:1.0.3"]
+          ],
+          "packagePeers": [
+            "@types/express",
+            "@types/fastify",
+            "express",
+            "fastify"
           ],
           "linkType": "HARD",
         }]
